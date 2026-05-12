@@ -1,0 +1,35 @@
+.editor {
+  flex: 1;
+  padding: 32px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-input {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-bottom: 24px;
+  color: #1e2937;
+}
+
+.content-input {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: Georgia, serif;
+  color: #334155;
+}
+
+.generating {
+  text-align: center;
+  color: #64748b;
+  padding: 20px;
+  font-style: italic;
+}

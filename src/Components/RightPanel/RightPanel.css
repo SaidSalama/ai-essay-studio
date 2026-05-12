@@ -1,0 +1,20 @@
+.right-panel {
+  width: 320px;
+  background: #f8fafc;
+  border-left: 1px solid #e2e8f0;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.panel h4 {
+  margin-bottom: 12px;
+  color: #1e2937;
+}

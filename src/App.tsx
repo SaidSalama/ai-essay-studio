@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-
+import AIEssayStudio from './Components/AIEssayStudio/AIEssayStudio';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>AI Essay Studio</h1>
+    <div className="app">
+      <AIEssayStudio />
     </div>
   );
 }
