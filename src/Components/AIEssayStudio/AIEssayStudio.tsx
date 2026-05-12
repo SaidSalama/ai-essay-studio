@@ -20,7 +20,7 @@ const AIEssayStudio = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async () => {
-  const COLAB_URL = "https://unstructurally-unfooling-lily.ngrok-free.dev";
+  const COLAB_URL = process.env.REACT_APP_COLAB_URL;
   
   try {
     const response = await fetch(`${COLAB_URL}/webhook`, {
