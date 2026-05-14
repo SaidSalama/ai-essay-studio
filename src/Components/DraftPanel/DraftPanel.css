@@ -1,6 +1,64 @@
+/* DRAFT PANEL — CLEAN & PROFESSIONAL ESSAY DISPLAY */
 .draft-panel {
-  flex: 1;
-  padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 32px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  min-height: 600px;
+  border: 1px solid #e2e8f0;
+}
+
+.draft-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.draft-header h2 {
+  margin: 0;
+  color: #1e2937;
+  font-size: 1.8rem;
+}
+
+.draft-status {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.draft-content {
+  line-height: 1.85;
+  font-size: 1.1rem;
+  color: #334155;
+  font-family: 'Georgia', serif;
+}
+
+.essay-text p {
+  margin-bottom: 1.4em;
+  text-align: justify;
+}
+
+.empty-draft {
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+  padding: 80px 20px;
+  border: 2px dashed #e2e8f0;
+  border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .draft-panel {
+    padding: 20px;
+  }
+  .draft-header h2 {
+    font-size: 1.5rem;
+  }
 }

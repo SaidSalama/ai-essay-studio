@@ -1,11 +1,11 @@
 import './Sidebar.css';
 
 const steps = [
-  { id: 1, title: "Plan" },
-  { id: 2, title: "Research" },
-  { id: 3, title: "Generate" },
-  { id: 4, title: "Reflect" },
-  { id: 5, title: "Revise" },
+  { id: 1, title: "Ask AI" },
+  { id: 2, title: "Plan" },
+  { id: 3, title: "Search Results" },
+  { id: 4, title: "Draft/Essay" },
+  { id: 5, title: "Critique" },
 ];
 
 const Sidebar = ({ currentStep }: { currentStep: number }) => {
